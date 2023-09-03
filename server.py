@@ -4,7 +4,7 @@ import socket
 import threading
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(("", 9999))
+server.bind(("", 8501))
 
 server.listen()
 
